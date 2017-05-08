@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -22,5 +24,10 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './'
-  }
+  },
+  plugins: [
+      new webpack.DefinePlugin({
+          'process.env.OPENWEATHER_APIKEY' : JSON.stringify(process.env.openweather_appid)
+      })
+  ]
 };
