@@ -1,25 +1,17 @@
-# ReduxSimpleStarter
+# Weather
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is a simple project to work with React-Redux, OpenWeatherMapApi, Sparklines, and GoogleMap.
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
+You will need to set an environment variable { openweather_appid : #### } for the api call to work.
 
 #### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
+> git clone https://github.com/buffalo704/weather.git
+> cd weather
 > npm install
 > npm start
 ```
